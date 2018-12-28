@@ -1,0 +1,2 @@
+select empno,ename from emp where sal=(select max(sal) from emp where deptno=20)
+/

@@ -1,0 +1,2 @@
+select sq1.currval from dual
+/

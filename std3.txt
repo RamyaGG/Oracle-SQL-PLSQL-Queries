@@ -1,0 +1,2 @@
+ update student set address= ' hassan 'where address is null
+

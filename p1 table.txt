@@ -1,0 +1,2 @@
+ create table p1
+ ( pname varchar(10), dop date);

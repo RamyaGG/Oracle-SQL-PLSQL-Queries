@@ -1,0 +1,6 @@
+
+/* to withdraw permission in scott account */
+
+
+revoke select on emp from cdac2
+

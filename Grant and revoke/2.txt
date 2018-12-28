@@ -1,0 +1,2 @@
+grant connect to ramya identified by hassan
+/

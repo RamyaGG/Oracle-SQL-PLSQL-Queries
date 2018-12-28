@@ -1,0 +1,11 @@
+
+/* table with not null constraint */
+
+create table citizen1
+( ssn char(10)primary key,
+  usn char(10)unique,
+  acno char(10)unique,
+  ppno char(10)unique,
+  dob date not null,
+  quali varchar(30)not null)
+

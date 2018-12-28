@@ -1,0 +1,2 @@
+select * from emp where sal>fun1
+/

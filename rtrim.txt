@@ -1,0 +1,2 @@
+select * from student  where rtrim(ltrim(name)) like 's%'
+/

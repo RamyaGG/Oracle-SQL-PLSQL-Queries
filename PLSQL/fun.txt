@@ -1,0 +1,8 @@
+create or replace function fun1
+return number as
+x number(10,2);
+begin
+x:=654.72;
+return x;
+end;
+/

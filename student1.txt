@@ -1,0 +1,5 @@
+create table student1
+( slno number(3),
+usn varchar(30),
+name varchar(20), primary key ( slno, usn))
+/

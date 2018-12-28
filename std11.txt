@@ -1,0 +1,2 @@
+insert into student (name,usn) values ('&name', '&usn')
+

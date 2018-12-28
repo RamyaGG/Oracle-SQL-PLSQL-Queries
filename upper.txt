@@ -1,0 +1,2 @@
+select upper(name) from student
+/

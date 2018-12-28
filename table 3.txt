@@ -1,0 +1,8 @@
+
+/* table wit check constraint */
+
+create table staff
+( name varchar(50),
+  age number(3)check (age>18),
+  address varchar(30))
+

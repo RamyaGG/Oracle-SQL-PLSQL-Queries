@@ -1,0 +1,1 @@
+select sq1.nextval from dual;

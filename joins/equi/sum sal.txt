@@ -1,0 +1,2 @@
+select sum(sal) from emp where deptno=20
+/

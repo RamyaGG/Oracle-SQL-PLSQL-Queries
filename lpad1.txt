@@ -1,0 +1,2 @@
+select lpad (name,10) from student
+/

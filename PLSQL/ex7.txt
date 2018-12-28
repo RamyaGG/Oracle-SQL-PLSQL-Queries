@@ -1,0 +1,12 @@
+declare
+a emp%rowtype;
+b emp.sal%type;
+begin
+select * into a from emp where empno=7369;
+select sal into b from emp where empno=7369;
+dbms_output.put_line(a.ename);
+dbms_output.put_line(a.empno);
+dbms_output.put_line(a.sal);
+dbms_output.put_line(b);
+end;
+/

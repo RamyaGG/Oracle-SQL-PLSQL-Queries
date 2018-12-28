@@ -1,0 +1,2 @@
+select deptno, max(sal) from emp group by deptno
+/

@@ -1,0 +1,2 @@
+insert into student ( usn,name) values ('4mc09cs011', 'kiran kumar')
+

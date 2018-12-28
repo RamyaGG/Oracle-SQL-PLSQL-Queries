@@ -1,0 +1,4 @@
+create or replace procedure emppr(no number,salary number) as begin
+update emp set emp.sal=emp.sal+salary where empno=no;
+end;
+/

@@ -1,0 +1,7 @@
+create table product 
+( pid char(10) primary key,
+  pname varchar(30),
+  vendor varchar(30),
+  dop date,
+  qty number(30),
+  price number(10,2));

@@ -1,0 +1,2 @@
+update student set usn='4mc08ec063' where address is null
+

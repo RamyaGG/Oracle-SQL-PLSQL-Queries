@@ -1,0 +1,2 @@
+alter table ss6 drop constraint pk1
+/

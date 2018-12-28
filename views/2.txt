@@ -1,0 +1,2 @@
+ create view v2 as select slno, usn from student1
+/

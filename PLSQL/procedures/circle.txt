@@ -1,0 +1,37 @@
+step 1
+
+create or replace type circle as object
+(xc number(10,2), yc number(10,2), area number(10,2),
+peri number(10,2), member procedure setpar(x in number, y in number, r in number), 
+member procedure compute, member function getarea return number, 
+member function getperi return number);
+
+
+step 2
+
+create or replace type body circle as
+member procedure setpar (x in number, y in number, r in number) is
+begin
+xc:=x;
+yc:=y;
+rad:=r;
+end;
+member procedure compute is
+begin
+area:=3.142*rad*rad;
+peri:=2.0*3.142*rad;
+end;
+member function getarea return number is
+begin
+return area;
+end;
+member function getperi return number is
+begin
+return peri;
+end;
+end;
+
+
+step 3
+
+

@@ -1,0 +1,2 @@
+insert into student values ('&usn','&name', '&address','&dob', &fee)
+

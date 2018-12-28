@@ -1,0 +1,99 @@
+create table student 
+( usn char(10),
+ name varchar (20),
+ address varchar (100),
+ dod date,
+ fee number (10,2))
+
+
+desc student
+
+
+insert into student values 
+('4mc08ec060',
+'ramya',
+'vidya nagar,
+ hassan- 573202',
+'19/oct/1990', 4568.26)
+
+
+
+commit
+
+
+
+delete from emp
+
+
+
+rollback
+
+
+
+/* creating a table from another table*/
+
+
+create table emp1 as select * from emp
+
+
+create table emp2 as select empno, ename, job, deptno from emp
+
+
+select * from emp order by ename
+
+
+select * from emp order by ename desc
+
+
+/* creating new table from existing table remaining the column*/
+
+
+
+create table emp3(no,name,job) as select empno,ename,job from emp
+
+
+delete emp3
+
+
+drop table emp3
+
+
+
+
+select * from student
+
+
+ select rowid, usn from student
+
+
+select rowid, rownum, usn from student
+
+
+ delete from student where rowid='AAAH1/AABAAAO/3AAA'
+
+
+delete from student where address is null
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

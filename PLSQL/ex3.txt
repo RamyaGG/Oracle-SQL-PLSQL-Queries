@@ -1,0 +1,16 @@
+declare
+a number(10);
+b number(10);
+c number(10);
+begin
+a:=&a;
+b:=&b;
+c:=a/b;
+dbms_output.put_line(a);
+dbms_output.put_line(b);
+dbms_output.put_line(c);
+exception
+when ZERO_DIVIDE then
+dbms_output.put_line('division by zero');
+end;
+/

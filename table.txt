@@ -1,0 +1,7 @@
+create table item
+( itemno char(6)PRIMARY KEY,
+  itemname varchar(30),
+  gtyinstock number(6),
+  dop date,
+  unitprice number(10,2))
+

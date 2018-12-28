@@ -1,0 +1,19 @@
+declare
+a number(10);
+b number(10);
+c number(10);
+bb number(10);
+begin
+a:=10;
+b:=8;
+c:=240;
+if(a>b and a>c) then
+bb:=a;
+elsif(b>a and b>c) then
+bb:=b;
+else
+bb:=c;
+end if;
+dbms_output.put_line('biggest no='||bb);
+end;
+/

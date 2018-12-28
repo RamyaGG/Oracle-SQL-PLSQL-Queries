@@ -1,0 +1,2 @@
+select lpad ('cdac', 20 , 'r') from dual
+/

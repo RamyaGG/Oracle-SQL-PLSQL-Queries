@@ -1,0 +1,2 @@
+alter table product modify (pname varchar(30), pid char(15))
+

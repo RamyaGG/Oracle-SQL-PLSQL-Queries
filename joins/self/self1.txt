@@ -1,0 +1,5 @@
+create table ss6
+(slno number(3) constraint pk1 primary key,
+name varchar(30) constraint nn1 not null,
+desgn varchar(30) constraint ck1 check(desgn in ('p','l')))
+/

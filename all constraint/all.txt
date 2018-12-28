@@ -1,0 +1,7 @@
+create table ss
+( slno number(19) primary key,
+dlno varchar(30) unique,
+name varchar(20) not null,
+address varchar(30) default 'hassan',
+desgn varchar(30) check(desgn in ('p','l')))
+/

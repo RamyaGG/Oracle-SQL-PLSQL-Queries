@@ -1,0 +1,5 @@
+
+/* increase the sal of the emp 5% for the deptno 20 */
+
+
+update emp set sal= (5/100) * sal where deptno=20;

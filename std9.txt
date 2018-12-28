@@ -1,0 +1,2 @@
+select * from student where address like '%hassan%'
+

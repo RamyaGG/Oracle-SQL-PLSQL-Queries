@@ -1,0 +1,6 @@
+
+/* in scott account to give permission to cdac2 */
+
+
+grant select on emp to cdac2
+/

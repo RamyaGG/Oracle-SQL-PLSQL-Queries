@@ -1,0 +1,2 @@
+select ename, sal from emp where sal=(select min(sal) from emp)
+/

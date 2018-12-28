@@ -1,0 +1,2 @@
+grant all on emp to cdac2
+/

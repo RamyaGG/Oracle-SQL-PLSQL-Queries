@@ -1,0 +1,10 @@
+declare
+a number(10);
+b varchar(30);
+begin
+a:=234;
+b:='ramya gg';
+dbms_output.put_line(a);
+dbms_output.put_line(b);
+end;
+/

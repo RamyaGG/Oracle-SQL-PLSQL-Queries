@@ -1,0 +1,6 @@
+
+/* display the emp name, sal, comm who are not getting the commission */
+
+
+select ename, sal, comm from emp where (comm=0) or  comm is null
+/

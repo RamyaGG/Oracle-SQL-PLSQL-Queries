@@ -1,0 +1,2 @@
+insert into ss (slno, dlno,name,desgn) values ('&slno','&dlno','&name','&desgn')
+/

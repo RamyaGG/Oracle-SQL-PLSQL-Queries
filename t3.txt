@@ -1,0 +1,2 @@
+alter table product add (v_address varchar(20), remarks varchar(30))
+/

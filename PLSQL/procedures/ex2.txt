@@ -1,0 +1,1 @@
+execute emppr(7369,10000);

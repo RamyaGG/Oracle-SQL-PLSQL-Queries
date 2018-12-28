@@ -1,0 +1,5 @@
+
+display the emp name,sal,comm who are getting the commission
+
+select ename, sal, comm from emp where (comm<>0) and comm is not null
+/

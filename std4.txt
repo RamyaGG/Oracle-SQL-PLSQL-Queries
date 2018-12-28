@@ -1,0 +1,2 @@
+update student set name='vinod', address='mangalore' where usn='4mc08ec064'
+

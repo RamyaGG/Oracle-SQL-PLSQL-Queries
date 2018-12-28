@@ -1,0 +1,11 @@
+declare
+a number(3);
+b date;
+begin
+a:=234;
+b:='11-mar-2012';
+dbms_output.put_line('the value of a is '||a);
+dbms_output.put_line('the value of a is '||b);
+dbms_output.put_line('the value of a is '||a||'ramya');
+end;
+/

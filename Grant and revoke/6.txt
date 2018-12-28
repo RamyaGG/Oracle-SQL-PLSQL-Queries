@@ -1,0 +1,6 @@
+
+/* in cdac account to employee table */
+
+
+select * from scott.emp
+/

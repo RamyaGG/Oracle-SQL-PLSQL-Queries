@@ -1,0 +1,2 @@
+select deptno, avg(sal) from emp group by deptno
+/

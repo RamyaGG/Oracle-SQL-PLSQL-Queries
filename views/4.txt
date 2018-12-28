@@ -1,0 +1,2 @@
+update v2 set name='xxx' where slno=001
+/

@@ -1,0 +1,13 @@
+
+/* table wit primary and unique key constraint */
+
+
+create table citizen
+( ssn char(10)primary key,
+  usn char(10)unique,
+  acno char(10)unique,
+  ppno char(10)unique,
+  dlno char(10)unique,
+  name varchar(30),
+  address varchar(30))
+
